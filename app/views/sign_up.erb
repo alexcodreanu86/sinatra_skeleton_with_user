@@ -1,0 +1,11 @@
+<h1>Please sign in</h1>
+
+<form action="/users/new" method="POST">
+  <label for="email">Email: </label>
+  <input type="email" name="user[email]" id="email"><br>
+  <label for="password">Password: </label>
+  <input type="password" id="password" name="user[password]"><br>
+  <label for="p_confirm">Password Confirmation</label>
+  <input type="password" id="p_confirm" name="user[password_confirmation]"><br>
+  <input type="submit" id="create_user" value="Sign up">
+</form>
